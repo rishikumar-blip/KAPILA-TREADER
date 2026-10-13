@@ -1,0 +1,26 @@
+.visiting-card-section{padding:80px max(calc((100vw - 1160px)/2),8vw);display:grid;grid-template-columns:.7fr 1.3fr;gap:60px;align-items:center;background:#ecf3f5}
+.visiting-card-copy h2{font:700 clamp(30px,3.7vw,43px)/1.15 var(--serif);letter-spacing:-.05em;color:var(--navy);margin:25px 0 12px}
+.visiting-card-copy p{font-size:12px;color:#71808a;margin:0 0 22px}
+.visiting-card-preview{position:relative;display:block;border:1px solid #d3dce0;background:white;box-shadow:0 15px 40px #102b4e13}
+.visiting-card-preview img{height:auto;width:100%}
+.visiting-card-preview>span{position:absolute;right:12px;bottom:12px;background:#102b4eeb;color:white;padding:7px 11px;font-size:9px;letter-spacing:.1em}
+.floating-contact{position:fixed;z-index:30;right:20px;bottom:22px;display:flex;flex-direction:column;gap:10px}
+.floating-contact a{display:flex;align-items:center;justify-content:center;gap:9px;min-width:136px;height:48px;padding:0 15px;color:white;border-radius:26px;box-shadow:0 6px 20px #0c203942;font-size:12px;font-weight:700;transition:transform .2s,box-shadow .2s}
+.floating-contact a:hover{transform:translateY(-3px);box-shadow:0 9px 24px #0c203954}
+.floating-contact svg{width:20px;height:20px;fill:currentColor}
+.float-whatsapp{background:#20a766}.float-call{background:#174f7a}
+.service-band{grid-template-rows:auto auto;align-items:stretch}
+.service-photo{grid-column:1;grid-row:2;align-self:stretch;height:250px;margin:0;transform:none;overflow:hidden;border-radius:3px}
+.service-photo img{width:100%;height:100%;object-fit:cover;object-position:center 38%}
+.service-photo-label{left:0;right:0;bottom:0}
+.contact-map{position:relative;isolation:isolate;background:#dce9ee}
+.contact-map iframe{z-index:0;min-height:100%;background:#dce9ee}
+.map-overlay{z-index:2;left:24px;right:24px;bottom:24px;max-width:430px;padding:20px 22px 19px 82px;border:1px solid #dce7eb;border-radius:5px;box-shadow:0 12px 32px #102b4e30}
+.map-overlay>span.map-label{display:block;font:800 clamp(21px,2.5vw,30px)/1.1 var(--serif);letter-spacing:-.04em;color:#102b4e}
+.map-overlay>span.map-label::before{content:"";position:absolute;left:21px;top:23px;width:43px;height:43px;background:#17395e;border:3px solid #e5f1f4;border-radius:50% 50% 50% 8px;transform:rotate(-45deg);box-shadow:0 4px 10px #17395e40}
+.map-overlay>span.map-label::after{content:"KT";position:absolute;left:32px;top:36px;color:white;font:800 11px var(--serif);letter-spacing:-1px}
+.map-overlay strong{display:block;font:700 13px var(--serif);color:#4f7084;margin:7px 0 8px}
+.map-overlay a{display:inline-flex;align-items:center;gap:7px;padding:8px 11px;background:#edf5f8;border-radius:3px;font-weight:700}
+@media(max-width:760px){.map-overlay{left:14px;right:14px;bottom:14px;padding:16px 15px 15px 67px}.map-overlay>span.map-label::before{left:15px;top:18px;width:37px;height:37px}.map-overlay>span.map-label::after{left:24px;top:30px;font-size:10px}.map-overlay strong{font-size:12px}}
+@media(max-width:760px){.service-band{grid-template-rows:auto}.service-photo{grid-column:1;grid-row:auto;height:230px;margin:0;transform:none}.service-photo img{object-position:center 38%}}
+@media(max-width:760px){.visiting-card-section{padding:60px 6vw;grid-template-columns:1fr;gap:25px}.visiting-card-preview>span{font-size:8px;padding:6px 8px}.floating-contact{right:12px;bottom:12px;gap:8px}.floating-contact a{min-width:48px;width:48px;height:48px;padding:0;border-radius:50%}.floating-contact a span{display:none}.floating-contact svg{width:22px;height:22px}}
