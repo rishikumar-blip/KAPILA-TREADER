@@ -3,7 +3,7 @@ window.KAPILA_BUSINESS = {
   name: 'Kapila Traders',
   phone: '+91 9910985547',
   phoneTel: '+919910985547',
-  primeryPhone: '+91 9910985547',
+  primeryPhone: '+919910985547',
   alternatePhoneTel: '+919582816032',
   whatsappPhone: '919910985547',
   whatsappVerified: true,
