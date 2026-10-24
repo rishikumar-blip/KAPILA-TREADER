@@ -1,9 +1,9 @@
 /* Keep owner-verified business details in one place. Update pendingVerification after confirming each item. */
 window.KAPILA_BUSINESS = {
   name: 'Kapila Traders',
-  phone: '+91 8062757454',
-  phoneTel: '+918062757454',
-  alternatePhone: '+91 9582816032',
+  phone: '+91 9910985547',
+  phoneTel: '+919910985547',
+  PRIMARYPhone: '+91 9910985547',
   alternatePhoneTel: '+919582816032',
   whatsappPhone: '919910985547',
   whatsappVerified: true,
