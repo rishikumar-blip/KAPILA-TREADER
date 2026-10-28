@@ -1,11 +1,11 @@
 /* Keep owner-verified business details in one place. Update pendingVerification after confirming each item. */
 window.KAPILA_BUSINESS = {
   name: 'Kapila Traders',
-  phone: '+91 8062757454',
-  phoneTel: '+918062757454',
+  phone: '+91 9910985547',
+  phoneTel: '+91 9910985547',
   alternatePhone: '+91 9910985547',
-  alternatePhoneTel: '+919910985547',
-  whatsappPhone: '919910985547',
+  alternatePhoneTel: '+91 9582816032',
+  whatsappPhone: '+91 9910985547',
   whatsappVerified: true,
   address: 'Metro Pillar Number 683, Shop No. 4, G 1/448, near Dal Mill Road, Uttam Nagar, New Delhi, Delhi 110059',
   hoursDisplay: 'Daily, 10:00 AM – 9:00 PM',
