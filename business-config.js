@@ -2,10 +2,17 @@
 window.KAPILA_BUSINESS = {
   name: 'Kapila Traders',
   phone: '+91 9910985547',
+<<<<<<< HEAD
   phoneTel: '+91 9910985547',
   alternatePhone: '+91 9910985547',
   alternatePhoneTel: '+91 9582816032',
   whatsappPhone: '+91 9910985547',
+=======
+  phoneTel: '+919910985547',
+  primeryPhone: '+919910985547',
+  alternatePhoneTel: '+919582816032',
+  whatsappPhone: '919910985547',
+>>>>>>> 624df0220903e659d4d72b48401087835135f24d
   whatsappVerified: true,
   address: 'Metro Pillar Number 683, Shop No. 4, G 1/448, near Dal Mill Road, Uttam Nagar, New Delhi, Delhi 110059',
   hoursDisplay: 'Daily, 10:00 AM – 9:00 PM',
